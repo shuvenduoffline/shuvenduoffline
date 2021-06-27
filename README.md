@@ -6,7 +6,7 @@
 
 
 #### Follow me
-[![Twitter: pedromassangom](https://img.shields.io/twitter/follow/shuveduoffline?style=social)](https://twitter.com/shuvenduoffline)
+[![Twitter: pedromassangom](https://img.shields.io/twitter/follow/shuveduoffline?style=social)](https://twitter.com/shuenduoffline)
 [![Linkedin: pedromassango](https://img.shields.io/badge/-shuvenduoffline-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/shuvendu-dhal-656b641/)](https://www.linkedin.com/in/shuvendu-dhal-656b641/)
 [![GitHub shuvenduoffline](https://img.shields.io/github/followers/shuvenduoffline?label=follow&style=social)](https://github.com/shuvenduoffline)
 
