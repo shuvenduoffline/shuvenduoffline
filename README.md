@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-### I'm Shuvendu, a passionate mobile developer currently working as Programmer Analyst Trainee.
+### I'm Shuvendu, a passionate full-satck developer currently working as Programmer Analyst Trainee.
 - 🤔 Have a project , want me to devepol ? [MailMe](https://mail.google.com/mail/?view=cm&fs=1&to=shuvenduoffline@gmail.com&su=Hi,Lets_Develop&body=Enter_your_requiremet_here)
 - 📫 How to reach me: [Linkdin](https://linkedin.com/in/shuvendu-dhal-656b641)
 
