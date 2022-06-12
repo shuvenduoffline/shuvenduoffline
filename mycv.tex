@@ -1,0 +1,210 @@
+%------------------------
+% Shuvendu Resume
+% Author : Shuvendu Dhal
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\setlength{\footskip}{3.60004pt}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Shuvendu Dhal}} & Email: \href{mailto:}{shuvenduoffline@gmail.com}\\
+  \href{https://shuvenduoffline.github.io/}{Portfolio: shuvenduoffline.github.io} & Mobile:~~~+91-8158090295\\
+  \href{https://github.com/shuvenduoffline}{Github: ~~github.com/shuvenduoffline} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of calcutta}{Kolkata, India}
+      {Bachelor of Technology - Information Technology;  GPA: 8.97}{August 2016 - August 2020}
+    %   {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}}}
+         \resumeSubheading
+      {J. K. K. I.}{Jharagram, India}
+      {Higher Secondary - Science;  Percentage: 83\%}{February 2014 - March 2016}
+    %   {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Math, Physics, Chemistry}}}
+    \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~~~JavaScript, JAVA, C++}
+	\resumeSubItem{Frameworks}{~~~~~~NodeJS, React, Spring Boot}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~~~Nginx, Kafka, MongoDb, MySQL}
+	\resumeSubItem{Platforms}{~~~~~~~~~Linux, Web, Windows, AWS}
+	\resumeSubItem{Soft Skills}{~~~~~~~~~Leadership, Blogging}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%-----------Experience-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Passionate Solver Technologies}{Kolkata, India}
+    {Software Engineer (Full-time)}{Sept 2021 - Present}
+    \resumeItemListStart
+        \resumeItem{Aggregator for IOT-Water }
+          {Build micro-service to aggregate IOT water data. }
+          \resumeItem{REST API for IOT-Dashboard}
+          {IOT data processed and converted to API interface.}
+          \resumeItem{Server Provision and Migration}{AWS EC-2 provisioning, deployment of services, and migration.}
+          \resumeItem{Impact}{Reduction of water and energy wastage by 30\% on average.}
+          \resumeItem{Link}{\href{https://waterdist.iot.demo.passionatesolver.com/login}{waterdist.iot.demo.passionatesolver.com}}
+      \resumeItemListEnd
+      
+    \resumeSubheading{Austec Service Pty Ltd}{Rocklea QLD, Australia}
+    {Software Engineer Freelance (Part-time,Remote)}{May 2020 - Nov 2020}
+    \resumeItemListStart
+        \resumeItem{Guard Shift Assignment}
+          {Build a web app to assign shifts to security guards.}
+          \resumeItem{Shift Monitoring}
+          {Developed mobile application to track guards shift based on location and time.}
+          \resumeItem{Team Lead}{Lead the team of 3 interns, successfully deliver in time.}
+          \resumeItem{Impact}{Simplified the workings of 1000+ security guards and reduced the day-to-day scheduling efforts by 3x.}
+          \resumeItem{Link}{\href{http://www.employee.austecservices.com.au}{employee.austecservices.com.au}}
+      \resumeItemListEnd  
+      
+% \vspace{-1pt}
+    \resumeSubheading
+		{Xoriant Solutions Pvt ltd}{Pune, India}
+		{Associate Software Engineer (Full-time)}{Nov 2020 -  Sept 2021}
+		\resumeItemListStart
+        \resumeItem{Disk Clean Service}
+          {Created micro-service to clean up old files based on schedule and file status.}
+        \resumeItem{Service Discovery}
+          {Enabled service discovery with Netflix Eureka to add/remove micro-services dynamically. }
+        \resumeItem{Impact}{Improved server performance and up time of services significantly. }
+		\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Open Source Contribution - p2p-deploy}{Build and published npm package for running ci/cd command in a
+secure away from the client machine to the server. The output of
+the commands is shown on the client-side in real-time. Build with nodes inbuild features without any other dependency.}
+\vspace{5pt}
+\newline{}
+\textbf{Link : }{\href{https://www.npmjs.com/package/p2p-deploy}{npmjs.com/package/p2p-deploy}}
+
+\resumeSubItem{Reservation and food booking with WhatsApp Chat Bot}{Build on twilio, integrated with reservation platform using cloud functions. The cafe could book and manage booking through an interactive dashboard. Boosted revenue by 30\%.}
+\vspace{5pt}
+\newline{}
+\textbf{Tech : }{Twilio, NodeJS, Cloud Function, Firebase, React}
+
+\resumeSubItem{Web3 Blood Bank}{The new generation's blood bank, powered by the Ethereum blockchain build with solidity. Blood bottles can be tracked from their origin to the end-user with block chains power and its security keeping all data safe and immutable.}
+\vspace{5pt}
+\newline{}
+\textbf{Tech : }{Solidity, React}
+\newline{}
+\textbf{Link :}{\href{https://shuvenduoffline.github.io/bloodbank/#/}{shuvenduoffline.github.io/bloodbank/}}
+
+% --------------- PUBLICATION ------------------------
+
+\section{Publications}
+\resumeSubHeadingListStart
+\resumeSubItem{Paper: Web3 Decentralize Application}{(Work in Progress) Blockchain based framework for document sharing, preserving and verification using ethereum blockchain.}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%-----------Awards-----------------
+\section{Honors and Awards}
+\begin{description}[font=$\bullet$]
+\item {Runner's Up at Airbus Aerothon, Lead a team of 4 to build the solution in 7days - July, 2022}
+\vspace{-5pt}
+\item {Copyright in Web3 dApp solution - January, 2021 }
+
+
+
+\end{description}
+
+% \vspace{-5pt}
+% \section{Volunteer Experience}
+%   \resumeSubHeadingListStart
+% 	\resumeSubheading
+%     {Community Lead at Developer Student Clubs NSEC}{Kolkata, India}
+%     {Conducted online and offline technical \& soft-skills training impacting over 3000 students.}{Jan 2019 - Present}
+% \vspace{5pt}
+%     % \vspace{10pt}\textbf{\large{Community Experience}}
+%     \resumeSubheading
+%     {Event Organizer at Google Developers Group Kolkata}{Kolkata, India}
+%     {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2018 - Present}
+
+\resumeSubHeadingListEnd
+
+\end{document}
