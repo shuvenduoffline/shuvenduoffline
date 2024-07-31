@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Shuvendu Dhal</h1>
-<h3 align="center">A passionate full-stack developer from India, specialized in back-end.</h3>
+<h3 align="center">A passionate full-stack developer from India, specialized in front-end.</h3>
 
-- 🔭 I’m currently working on **IOT**
+- 🔭 I’m currently working on **React**
 
 - 👨‍💻 All of my projects are available at [shuvenduoffline.github.io](https://shuvenduoffline.github.io/)
 
@@ -13,7 +13,7 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-- Ethereum: Connect Two Node From Different Computer , on GCP [link](https://medium.com/coinmonks/ethereum-connect-two-node-from-different-computer-on-gcp-f1f258ffa9ce)
+- Ethereum: Connect Two Node From Different Computer, on GCP [link](https://medium.com/coinmonks/ethereum-connect-two-node-from-different-computer-on-gcp-f1f258ffa9ce)
 - Deploy node.js/ React.js(any app) in EC-2 (any VM) with HTTPS and Nginx [link](https://medium.com/@shuvenduoffline/deploy-node-js-react-js-any-app-in-ec-2-any-vm-with-https-and-nginx-12c1d9413831)
 - Dynamic DNS with Domain Name (Google Domains) [link](https://medium.com/@shuvenduoffline/dynamic-dns-with-domain-name-google-domains-c0fb64b0463c)
 <!-- BLOG-POST-LIST:END -->
